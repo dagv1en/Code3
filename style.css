@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    /* display: wrap; */
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.modalWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222c2b78;
+    overflow-y: hidden;
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modalBackground {
+    background-color: #78B6B3;
+    width: 1200px;
+    min-height: 500px;
+  }
+
+  .modalClose {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    padding: 20px;
+  }
+
+.modal{
+   display: grid;
+   
+   grid-template-rows: repeat(0.33fr);
+   /* grid-template-columns: 0.5fr repeat(4, 0.5fr);*/
+}
+
+.modalColumn{
+    display: grid;
+    grid-template-columns: 0.33fr repeat(5, 0.33fr);
+    padding: 10px;
+}
+
+.modalRow{
+    display: grid;
+    grid-template-columns: 0.33fr repeat(5, 0.33fr);
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+  .modalApplicationTitle{
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .modalApplicationText{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  .modalApplicationInfoText{
+    font-size: 24px;
+    font-weight: 200;
+    color: #CEE7EB;
+    border: none;
+    background: none ;
+    font-size: 24px;
+    font-weight: 200;
+    max-width: 200px;
+    
+  }
+
+  .modalWindow2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222c2b78;
+    overflow-y: hidden;
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .modalClose2 {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    padding: 20px;
+  }
+
+.modal2{
+   display: grid;
+   grid-template: repeat(0.33fr);
+}
+
+.modalColumn2{
+    display: grid;
+    grid-template-columns: 0.33fr repeat(6, 0.33fr);
+    padding: 10px;
+}
+
+.modalRow2{
+    display: grid;
+    grid-template-columns: 0.33fr repeat(6, 0.33fr);
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+  .modalApplicationTitle2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .modalApplicationText2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  .modalApplicationInfoText2{
+    font-size: 24px;
+    font-weight: 200;
+    color: #CEE7EB;
+    border: none;
+    background: none ;
+    font-size: 24px;
+    font-weight: 200;
+    max-width: 125px;
+    
+  }
+
+  .modalWindow3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222c2b78;
+    overflow-y: hidden;
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modalClose3 {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    padding: 20px;
+  }
+
+.modal3{
+   display: grid;
+   grid-template-rows: repeat(0.33fr);
+}
+
+.modalColumn3{
+    display: grid;
+    grid-template-columns: 0.33fr repeat(4, 0.33fr);
+    padding: 10px;
+}
+
+.modalRow3{
+    display: grid;
+    grid-template-columns: 0.33fr repeat(4, 0.33fr);
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+  .modalApplicationTitle3{
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .modalApplicationText3{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  .modalApplicationInfoText3{
+    font-size: 24px;
+    font-weight: 200;
+    color: #000000;
+    border: none;
+    background: none ;
+    font-size: 24px;
+    font-weight: 200;
+    max-width: 125px;
+    
+  }
+
+  .modalWindow4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222c2b78;
+    overflow-y: hidden;
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modalClose4 {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    padding: 20px;
+  }
+
+.modal4{
+   display: grid;
+   grid-template-rows: repeat(0.67fr);
+}
+
+.modalColumn4{
+    display: grid;
+    grid-template-columns: 0.67fr repeat(3, 0.67fr);
+    padding: 10px;
+}
+
+.modalRow4{
+    display: grid;
+    grid-template-columns: 0.67fr repeat(3, 0.67fr);
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+  .modalApplicationTitle4{
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .modalApplicationText4{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  .modalApplicationInfoText4{
+    font-size: 24px;
+    font-weight: 200;
+    color: #000000;
+    border: none;
+    background: none ;
+    font-size: 24px;
+    font-weight: 200;
+    max-width: 250px;
+    
+  }
+
+
+
+.headerInner{
+    background-color: #6967EC;
+    height: 100px;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.HeaderLogo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.HeaderLogoText{
+    font-weight: 400;
+    font-size: 48px;
+    color: #00FFE0;
+}
+
+.btnlogo{
+    border: none;
+    background-color: #6967EC;
+    color: #150095;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+
+.intro-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nav-link{
+    font-weight: 400;
+    font-size: 36px;
+    color: #00FF94;
+}
+
+.introContentInfo{
+    font-weight: 400;
+    font-size: 36px;
+    color: #59E1E9;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 218px;
+}
+
+.introContentText{
+    font-weight: 400;
+    font-size: 36px;
+    color: #5C34FF;
+    text-align: center;
+    min-width: 1000px;
+    margin-left: 100px;
+    margin-top: 263px;
+}
+
+
+.intro-bg{
+    background-image: url(img/1673735380_pro-dachnikov-com-p-foto-za-partoi-v-univere-6\ 1.svg);
+    height: 880px;
+}
+
+.footerInner{
+    background-color: #6967EC;
+    height: 100px;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.footerPrivacePolicy{
+    font-weight: 400;
+    font-size: 36px;
+    color: #6BB1A9;
+}
